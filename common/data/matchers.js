@@ -233,6 +233,12 @@ window.matchers = [
         target: 'special',
         matcher: /description/i
     },
+
+    {
+        name: 'Universal ATK boosting specials',
+        target: 'special',
+        matcher: /Boosts ATK[^,]+(all characters)/i
+    },
     
     {
         name: '1.25x ATK specials',
@@ -604,6 +610,12 @@ window.matchers = [
     },
     
     {
+        name: 'End of Turn Damage Dealer',
+        target: 'special',
+        matcher: /(deals|cuts).+end of the turn/i
+    },
+    
+    {
         name: 'Special cooldown reducers',
         target: 'special',
         matcher: /reduces special cooldown/i
@@ -710,7 +722,7 @@ window.matchers = [
     {
         name: 'Orb Retainer',
         target: 'sailor',
-        matcher: /If this character has.+(STR|DEX|QCK|PSY|INT|RCV).+Perfect/i
+        matcher: /If this character has.+(STR|DEX|QCK|PSY|INT|RCV).+(GOOD|GREAT|PERFECT)/i
     },
     
     {
