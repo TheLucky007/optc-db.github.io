@@ -62,7 +62,10 @@
                     <i class="fa fa-chevron-down"></i>
                     <span>{{island.name}}</span>
                     <i class="fa fa-globe" ng-show="island.global" title="Available On Global"></i>
-                    <i class="fa fa-star" ng-show="island.challenge" title="Challenge Available"></i>
+                    <i class="fa fa-star" ng-show="island.challenge" title="Challenge Available"></i><!--
+                    <i class="fa fa-flag" ng-show="island.permj" title="Permanent Island on Japan"></i>
+                    <i class="fa fa-flag-o" ng-show="island.permg" title="Permanent Island on Global"></i>
+                    <i class="fa fa-flag-checkered" ng-show="island.permjg" title="Permanent Island on Japan and Global"></i>-->
                     <bonus-list ng-if="type == 'Story Island'" y="$index"></bonus-list>
                     <day-label ng-if="type == 'Weekly Island'"></day-label>
                 </h3>

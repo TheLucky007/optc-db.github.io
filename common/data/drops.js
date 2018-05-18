@@ -6,6 +6,9 @@ window.drops = {
             name: 'Fushia Village',
             thumb: 28,
             global: true,
+            /*permjg: true,
+            permj: true,
+            permg: true,*/
             nakama: 1002800,
             completion: '5x Rainbow Gems',	
             gamewith: 3417,
